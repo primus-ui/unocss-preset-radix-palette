@@ -1,0 +1,27 @@
+/* layer: preflights */
+
+
+:root {
+--blue10: hsl(208, 100%, 47.3%);
+--blueA2: hsla(210, 100%, 51.0%, 0.040);
+--blueA5: hsla(208, 99.1%, 47.1%, 0.189);
+--blueA9: hsla(206, 100%, 50.0%, 0.980);
+--red3: hsl(360, 100%, 96.8%);
+}
+
+.dark {
+--blue10: hsl(209, 100%, 60.6%);
+--blueA2: hsla(221, 97.8%, 52.4%, 0.059);
+--blueA5: hsla(213, 99.4%, 52.8%, 0.252);
+--blueA9: hsla(205, 100%, 50.0%, 0.980);
+--red3: hsl(356, 43.4%, 16.4%);
+}
+
+
+
+/* layer: default */
+.bg-blue-a2{background-color:var(--blueA2);}
+.bg-red-3{background-color:var(--red3);}
+.text-blue-10{color:var(--blue10);}
+.text-blue-a5{color:var(--blueA5);}
+.text-blue-a9{color:var(--blueA9);}

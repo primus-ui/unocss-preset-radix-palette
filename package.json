@@ -1,0 +1,47 @@
+{
+  "name": "unocss-preset-radix-palette",
+  "version": "0.0.1",
+  "author": "Primitive UI <do-not-write-me@example.com>",
+  "description": "UnoCSS Preset for Radix Colors Palette.",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:update": "vitest -u",
+    "prettier": "prettier --write .",
+    "eslint": "eslint \"src/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primitive-ui/unocss-preset-radix-palette.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primitive-ui/unocss-preset-radix-palette/issues"
+  },
+  "keywords": [
+    "unocss",
+    "preset",
+    "colors",
+    "radix"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
+    "@unocss/core": "^0.51.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@vitest/coverage-istanbul": "^0.30.1",
+    "eslint": "^8.37.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.3",
+    "unocss": "^0.51.4",
+    "vite": "^4.2.1",
+    "vite-plugin-dts": "^2.2.0",
+    "vitest": "^0.30.0"
+  }
+}

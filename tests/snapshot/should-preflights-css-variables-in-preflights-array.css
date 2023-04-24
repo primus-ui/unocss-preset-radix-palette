@@ -1,0 +1,122 @@
+/* layer: preflights */
+
+
+:root {
+--brand1: hsl(206, 100%, 99.2%);
+--brand2: hsl(210, 100%, 98.0%);
+--brand3: hsl(209, 100%, 96.5%);
+--brand4: hsl(210, 98.8%, 94.0%);
+--brand5: hsl(209, 95.0%, 90.1%);
+--brand6: hsl(209, 81.2%, 84.5%);
+--brand7: hsl(208, 77.5%, 76.9%);
+--brand8: hsl(206, 81.9%, 65.3%);
+--brand9: hsl(206, 100%, 50.0%);
+--brand10: hsl(208, 100%, 47.3%);
+--brand11: hsl(211, 100%, 43.2%);
+--brand12: hsl(211, 100%, 15.0%);
+--brandA1: hsla(210, 100%, 51.0%, 0.016);
+--brandA2: hsla(210, 100%, 51.0%, 0.040);
+--brandA3: hsla(210, 100%, 50.3%, 0.071);
+--brandA4: hsla(210, 100%, 50.1%, 0.118);
+--brandA5: hsla(208, 99.1%, 47.1%, 0.189);
+--brandA6: hsla(209, 99.5%, 45.3%, 0.283);
+--brandA7: hsla(208, 99.9%, 43.8%, 0.412);
+--brandA8: hsla(206, 99.8%, 45.1%, 0.632);
+--brandA9: hsla(206, 100%, 50.0%, 0.980);
+--brandA10: hsla(208, 100%, 47.2%, 0.980);
+--brandA11: hsla(212, 100%, 43.0%, 0.980);
+--brandA12: hsla(213, 100%, 14.4%, 0.980);
+--neutral1: hsl(206, 30.0%, 98.8%);
+--neutral2: hsl(210, 16.7%, 97.6%);
+--neutral3: hsl(209, 13.3%, 95.3%);
+--neutral4: hsl(209, 12.2%, 93.2%);
+--neutral5: hsl(208, 11.7%, 91.1%);
+--neutral6: hsl(208, 11.3%, 88.9%);
+--neutral7: hsl(207, 11.1%, 85.9%);
+--neutral8: hsl(205, 10.7%, 78.0%);
+--neutral9: hsl(206, 6.0%, 56.1%);
+--neutral10: hsl(206, 5.8%, 52.3%);
+--neutral11: hsl(206, 6.0%, 43.5%);
+--neutral12: hsl(206, 24.0%, 9.0%);
+--neutralA1: hsla(210, 92.6%, 26.5%, 0.016);
+--neutralA2: hsla(210, 87.7%, 16.0%, 0.028);
+--neutralA3: hsla(210, 98.8%, 14.4%, 0.055);
+--neutralA4: hsla(210, 94.1%, 11.1%, 0.075);
+--neutralA5: hsla(216, 91.1%, 10.9%, 0.099);
+--neutralA6: hsla(206, 96.4%, 11.3%, 0.126);
+--neutralA7: hsla(210, 99.1%, 10.1%, 0.157);
+--neutralA8: hsla(205, 96.5%, 10.0%, 0.244);
+--neutralA9: hsla(206, 98.8%, 5.9%, 0.467);
+--neutralA10: hsla(206, 99.6%, 5.4%, 0.506);
+--neutralA11: hsla(206, 97.0%, 4.8%, 0.593);
+--neutralA12: hsla(202, 97.0%, 2.4%, 0.934);
+--overlayA1: hsla(0, 0%, 0%, 0.012);
+--overlayA2: hsla(0, 0%, 0%, 0.027);
+--overlayA3: hsla(0, 0%, 0%, 0.047);
+--overlayA4: hsla(0, 0%, 0%, 0.071);
+--overlayA5: hsla(0, 0%, 0%, 0.090);
+--overlayA6: hsla(0, 0%, 0%, 0.114);
+--overlayA7: hsla(0, 0%, 0%, 0.141);
+--overlayA8: hsla(0, 0%, 0%, 0.220);
+--overlayA9: hsla(0, 0%, 0%, 0.439);
+--overlayA10: hsla(0, 0%, 0%, 0.478);
+--overlayA11: hsla(0, 0%, 0%, 0.565);
+--overlayA12: hsla(0, 0%, 0%, 0.910);
+}
+
+.dark {
+--brand1: hsl(212, 35.0%, 9.2%);
+--brand2: hsl(216, 50.0%, 11.8%);
+--brand3: hsl(214, 59.4%, 15.3%);
+--brand4: hsl(214, 65.8%, 17.9%);
+--brand5: hsl(213, 71.2%, 20.2%);
+--brand6: hsl(212, 77.4%, 23.1%);
+--brand7: hsl(211, 85.1%, 27.4%);
+--brand8: hsl(211, 89.7%, 34.1%);
+--brand9: hsl(206, 100%, 50.0%);
+--brand10: hsl(209, 100%, 60.6%);
+--brand11: hsl(210, 100%, 66.1%);
+--brand12: hsl(206, 98.0%, 95.8%);
+--brandA1: hsla(0, 0%, 0%, 0);
+--brandA2: hsla(221, 97.8%, 52.4%, 0.059);
+--brandA3: hsla(215, 99.3%, 54.2%, 0.135);
+--brandA4: hsla(215, 99.3%, 53.8%, 0.198);
+--brandA5: hsla(213, 99.4%, 52.8%, 0.252);
+--brandA6: hsla(212, 99.9%, 51.7%, 0.323);
+--brandA7: hsla(211, 100%, 50.7%, 0.435);
+--brandA8: hsla(211, 99.8%, 50.9%, 0.597);
+--brandA9: hsla(205, 100%, 50.0%, 0.980);
+--brandA10: hsla(208, 100%, 60.7%, 0.980);
+--brandA11: hsla(209, 100%, 66.3%, 0.980);
+--brandA12: hsla(196, 100%, 96.8%, 0.980);
+--neutral1: hsl(200, 7.0%, 8.8%);
+--neutral2: hsl(195, 7.1%, 11.0%);
+--neutral3: hsl(197, 6.8%, 13.6%);
+--neutral4: hsl(198, 6.6%, 15.8%);
+--neutral5: hsl(199, 6.4%, 17.9%);
+--neutral6: hsl(201, 6.2%, 20.5%);
+--neutral7: hsl(203, 6.0%, 24.3%);
+--neutral8: hsl(207, 5.6%, 31.6%);
+--neutral9: hsl(206, 6.0%, 43.9%);
+--neutral10: hsl(206, 5.2%, 49.5%);
+--neutral11: hsl(206, 6.0%, 63.0%);
+--neutral12: hsl(210, 6.0%, 93.0%);
+--neutralA1: hsla(0, 0%, 0%, 0);
+--neutralA2: hsla(181, 98.9%, 91.8%, 0.026);
+--neutralA3: hsla(182, 86.7%, 91.4%, 0.057);
+--neutralA4: hsla(209, 86.7%, 93.9%, 0.083);
+--neutralA5: hsla(200, 90.3%, 93.4%, 0.109);
+--neutralA6: hsla(209, 95.3%, 93.5%, 0.139);
+--neutralA7: hsla(204, 98.5%, 93.9%, 0.182);
+--neutralA8: hsla(209, 94.0%, 94.7%, 0.265);
+--neutralA9: hsla(207, 97.3%, 94.0%, 0.412);
+--neutralA10: hsla(209, 99.4%, 95.2%, 0.472);
+--neutralA11: hsla(208, 98.7%, 96.8%, 0.615);
+--neutralA12: hsla(211, 86.7%, 99.6%, 0.927);
+}
+
+
+
+/* layer: default */
+.bg-brand-1{background-color:var(--brand1);}
+.text-brand-2{color:var(--brand2);}

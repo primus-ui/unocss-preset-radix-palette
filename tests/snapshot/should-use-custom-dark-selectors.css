@@ -1,0 +1,18 @@
+/* layer: preflights */
+
+
+:root {
+--blue10: hsl(208, 100%, 47.3%);
+--green7: hsl(146, 38.5%, 69.0%);
+}
+
+.dark-theme {
+--blue10: hsl(209, 100%, 60.6%);
+--green7: hsl(153, 51.8%, 21.8%);
+}
+
+
+
+/* layer: default */
+.bg-blue-10{background-color:var(--blue10);}
+.text-green-7{color:var(--green7);}

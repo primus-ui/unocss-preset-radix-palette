@@ -1,0 +1,16 @@
+/* layer: preflights */
+
+
+:root {
+--slate5: hsl(208, 11.7%, 91.1%);
+}
+
+.dark {
+--slate5: hsl(199, 6.4%, 17.9%);
+}
+
+
+
+/* layer: default */
+.bg-slate-5{background-color:var(--slate5);}
+.text-slate-5{color:var(--slate5);}
