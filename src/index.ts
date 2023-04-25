@@ -197,7 +197,9 @@ export function presetRadix(
 
           output.push(`
             ${
-              options.media === false || preflightCss.dark.length === 0
+              options.media === false ||
+              (options.media === 'dark' && preflightCss.dark.length === 0) ||
+              (options.media === 'light' && preflightCss.light.length === 0)
                 ? ''
                 : `@media (prefers-color-scheme: ${options.media}) {
                     ${getPreflightCss(selector, css)}

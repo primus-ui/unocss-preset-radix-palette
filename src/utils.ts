@@ -33,6 +33,12 @@ export const getPalette = (color, alias, prefix): TPalette => {
   }, {})
 }
 
+/**
+ * Return preflight css
+ * @param {string} selector - CSS Selector
+ * @param {array} css - An array of CSS
+ * @return {string} - CSS string
+ */
 export const getPreflightCss = (selector, css) => {
   return selector === false || css.length === 0
     ? ''
@@ -43,6 +49,11 @@ export const getPreflightCss = (selector, css) => {
     }`
 }
 
+/**
+ * Validate provided options
+ * @param {object} options - Preset options provided
+ * @return {object} - Preset options validated
+ */
 export const validateOptions = (options: IPresetRadixPaletteOptions) => {
   if (
     typeof options.palette !== 'object' ||
