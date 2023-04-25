@@ -1,11 +1,10 @@
 /* layer: preflights */
 
-
+/* layer: radix */
 :root {
 --color-blue10: hsl(208, 100%, 47.3%);
 --color-green7: hsl(146, 38.5%, 69.0%);
 }
-
 .dark {
 --color-blue10: hsl(209, 100%, 60.6%);
 --color-green7: hsl(153, 51.8%, 21.8%);
